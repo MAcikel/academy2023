@@ -1,0 +1,8 @@
+-Dockerfile oluşturuldu
+-Dockerfile ile image oluşturuldu
+docker build -t flask-app .
+-Localde oluşturulan image etiketlendi
+docker tag flask-app macikel/academy2023_flask-app:latest
+-Etiketlenen docker image Docker Hub a push edildi
+docker push macikel/academy2023_flask-app:latest
+-image docker hub repo ya yüklendi.

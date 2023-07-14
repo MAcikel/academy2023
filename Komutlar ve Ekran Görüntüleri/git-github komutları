@@ -1,0 +1,15 @@
+remote repository oluşturuldu(github)
+local e clonlandı
+kodu içeren dosya indirilerek local repo içerisine yüklendi
+
+localden remote repoya push
+---------------------------
+git init
+git add .
+git commit -m "code added"
+git push origin main
+
+Dockerfile oluşturuldu
+git add .
+git commit -m "Dockerfile added"
+git push origin main
